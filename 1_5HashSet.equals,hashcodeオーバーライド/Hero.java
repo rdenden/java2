@@ -1,6 +1,10 @@
 public class Hero {
-    public String name;
+    String name;
+    int hp;
     
+    public int hashCode() {
+        return Objects.hash(this.name,this.hp);
+    }
     public boolean equals(Object o) {
         if (o == this) {
             return true;
