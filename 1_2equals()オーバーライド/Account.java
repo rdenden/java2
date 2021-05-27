@@ -1,5 +1,5 @@
 public class Account {
-    String accoutNo;
+    String accountNo;
     
     public boolean equals(Object o) {
         if (o == this) {
@@ -8,11 +8,11 @@ public class Account {
         if (o == null) {
             return false;
         }
-        if (!(o instanceof Account) {
+        if (!(o instanceof Account)) {
             return false;
         }
         Account r = (Account)o;
-        if (!this AccountNo.trim().equals(r.AccountNo.trim())) {
+        if (!this.accountNo.trim().equals(r.accountNo.trim())) {
             return false;
         }
         return true;
