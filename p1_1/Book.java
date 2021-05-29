@@ -16,7 +16,7 @@ public class Book implements Comparable<Book>,Cloneable {
         if (o == null) {
             return false;
         }
-        if (!(o.instanceof Book ) {
+        if (!(o instanceof Book)) {
             return false;
         }
         Book b = (Book) o;
