@@ -41,6 +41,7 @@ public class Book implements Comparable<Book>,Cloneable {
         // なぜキャストしなければならないか
         result.publishDate = (Date)this.publishDate.clone();
         result.comment = this.comment;
+        return result;
     }
     
     
